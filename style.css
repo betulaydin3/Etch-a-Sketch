@@ -1,12 +1,12 @@
 .vak {
   width: 10px;
   height: 10px;
-  background: lightblue;
+  background: pink;
   outline: 1px solid white;
 }
 
 #container {
   display: flex;
   flex-wrap: wrap;
-  width: 160px;
+  width: 480px;
 }
