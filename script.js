@@ -1,4 +1,5 @@
 const container = document.querySelector("#container");
+const button = document.querySelector("button")
 
 for (let i = 0; i < 256; i++) {
     const square = document.createElement("div");
@@ -9,3 +10,11 @@ for (let i = 0; i < 256; i++) {
     }
     )
 };
+
+button.addEventListener("click", () => {
+    const antwoord = prompt("Hoeveel vakjes per kant?");
+    const number = Number(antwoord)
+    console.log(number);
+    console.log(typeof number);
+
+})
